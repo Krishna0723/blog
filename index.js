@@ -8,7 +8,7 @@ const postBlog = require("./routes/postBlog");
 const authentication = require("./routes/authentication");
 
 env.config();
-console.log(process.env.dbString);
+// console.log(process.env.dbString);
 mongoose
   .connect(process.env.dbString, {
     useNewUrlParser: true,
